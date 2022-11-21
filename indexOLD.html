@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEAC - Resultados online</title>
+
+    <!--v1-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="https://www.univali.br/PublishingImages/favicon.ico" type="image/x-icon" />
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <header>
+            <div class="row">
+                <div class="col-12 text-center" style="background-color: #004786; padding: 20px 0;">
+                    <img src="https://www.univali.br/Style%20Library/img/logo.png">
+                </div>
+            </div>
+        </header>
+
+        <div class="row text-center">
+            <div class="col-12 " style="margin: 40px 0; color: #004786">
+                <!-- <h2>Resultados online</h2> -->
+                <!--  <p>Clique em uma das opções para acessar seus resultados.</p> -->
+            </div>
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-12 d-block d-md-none">
+                <a href="http://seulaudo.com.br/leac_univali" class="btn btn-primary btn-lg" role="button"
+                    aria-disabled="true">Exames realizados a partir do <br />dia 07/02</a>
+            </div>
+
+            <div class="col-12 d-none d-md-block">
+                <a href="http://seulaudo.com.br/leac_univali" class="btn btn-primary btn-lg" role="button"
+                    aria-disabled="true">Acessar Resultados On-line</a>
+            </div>
+
+        </div>
+
+        <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
+
+            <!--1  <div class="col-12 text-center d-block d-md-none">
+                <a href="https://siaiapp23.univali.br/LaboratorioWeb/indexLaboratorio.jsp"
+                    class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Exames realizados até o
+                    <br />dia 06/02</a>
+            </div>
+
+            <div class="col-12 text-center d-none d-md-block">
+                <a href="https://siaiapp23.univali.br/LaboratorioWeb/indexLaboratorio.jsp"
+                    class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Exames realizados até o dia
+                    06/02</a>
+            </div> -->
+
+
+            <!--2  <div class="col-12 text-center d-block d-md-none">
+                <a href="https://siaiapp23.univali.br/LaboratorioWeb/indexLaboratorio.jsp">Exames realizados até
+                    o<br />dia 06/02</a>
+            </div>
+
+            <div class="col-12 text-center d-none d-md-block">
+                <a href="https://siaiapp23.univali.br/LaboratorioWeb/indexLaboratorio.jsp">Exames realizados até o dia
+                    06/02</a>
+            </div> -->
+
+            <div class="col-12 text-center d-none d-md-block">
+                <a href="https://siaiapp23.univali.br/LaboratorioWeb/indexLaboratorio.jsp"
+                    class="btn btn-secondary btn-sm" role="button" aria-disabled="true">Exames realizados antes do dia
+                    07/02/2022</a>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row" style="margin-top: 60px; margin-bottom: 60px;">
+
+            <div class="col-12 text-center d-block d-md-none">
+
+                <p style="color: #004786; margin-bottom: 30px;"><b>Desative o bloqueio de Pop-up caso não consiga
+                        acessar o seu laudo:</b></p>
+
+                <iframe width="340" height="440" src="https://www.instagram.com/p/CaNAtXPgutt/embed"
+                    frameborder="0"></iframe>
+
+            </div>
+
+            <div class="col-12 text-center d-none d-md-block">
+
+                <p style="color: #004786; margin-bottom: 30px;"><b>Desative o bloqueio de Pop-up caso não consiga
+                        acessar o seu laudo:</b></p>
+
+                <iframe width="450" height="600" src="https://www.instagram.com/p/CaNAtXPgutt/embed"
+                    frameborder="0"></iframe>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script>
+
+        fetch("https://623a01f728bcd99f0278a019.mockapi.io/api/v1/horario")
+            .then(response => {
+                console.log(response.status);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

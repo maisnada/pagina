@@ -1,0 +1,31 @@
+@import './_reset';
+@import './_variaveis';
+
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-family: $body-font-family;
+    font-weight: $body-font-weight;
+}
+
+header {
+    background-image:
+        linear-gradient(180deg, $primary-color, $primary-color),
+        url('../images/bg_header.png');
+    background-position: center;
+    min-height: 273px;
+    background-size: cover;
+}
+
+.container {
+
+    margin-top: 1rem;
+    margin-left: 0.937rem;
+    margin-right: 0.937rem;
+}
+
+//[Bloco]__[Elemento]
+//[Bloco|Elemento]--[Modificador]
